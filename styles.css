@@ -1,0 +1,28 @@
+html,body{
+    height:100%;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+#header{
+    width:100%;
+    font-size:50px;
+    text-align: center;
+}
+
+#container{
+    margin:auto;
+    height:70%;
+    width:40%;
+    background-color: #BE6871;
+    display:flex;
+    flex-basis:100/16;
+    flex-wrap:wrap;
+    flex-direction: row;
+    float:center;
+    top:15%;
+    position: relative;
+    border-style:solid;
+    border:10px 10px;
+}
